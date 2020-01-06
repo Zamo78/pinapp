@@ -1,13 +1,14 @@
 * {
 	background-color: #F6ECEC;
 }
-.pinaleft{
-	/*width: 40%;*/
-	height: 915px;
-	margin: 0px;
-	border-radius: 15%;
+#pinaleft{
+	/*max-width: 100%;*/
+	border-radius: 10%;
 	border: 5px solid #ccc;
+	background-size: cover; 
+	overflow: hidden;
 }
+
 
 h2, h5{
 	font-family: Century Gothic;
@@ -15,6 +16,6 @@ h2, h5{
 }
 
 #btn-entrar{
-	height: 80px;
+	height: 70px;
 	border-radius: 40px; 
 }
